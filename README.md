@@ -1,8 +1,8 @@
 Trần Thị Ngọc  
 **Báo cáo học Array**  
 [Dữ liệu kiểu Mảng](#Mảng)  
-[Mảng một chiều](#Mảng một chiều)  
-[Mảng nhiều chiều](#Mảng nhiều chiều)   
+[Mảng một chiều](#Mảng_một_chiều)  
+[Mảng nhiều chiều](#Mảng_nhiều_chiều)   
 <a name = Mảng><a\>  
 ###I.Mảng:  
 **Định nghĩa:**  
@@ -14,7 +14,7 @@ Trần Thị Ngọc
       -Số chiều và kích thước của mỗi chiều.  
 **Cú pháp:**  
 `<kiểu dữ liệu  ><tên mảng><danh sách các chiều của mảng>;`  
-<a name = Mảng một chiều><a\>  
+<a name = Mảng_một_chiều><a\>  
 ###II.Mảng một chiều.  
 *Nếu xét dưới góc độ toán học, mảng 1 chiều giống như một vector. Mỗi phần tử của mảng một chiều có giá trị không phải là một mảng khác.*   
 **1.Khai báo mảng với số phần tử xác định (khai báo tường minh).**    
@@ -41,7 +41,7 @@ Truy xuất từng phần tử của mảng
 Mỗi phần tử của mảng được truy xuất thông qua **Tên biến mảng** theo sau là **chỉ số** nằm trong **cặp dấu ngoặc vuông [ ]**. Chẳng hạn *a[0]* là *phần tử đầu tiên* của mảng a được khai báo ở trên. Chỉ số của phần tử mảng là một biểu thức mà giá trị là **kiểu số nguyên**.
 Với cách truy xuất theo kiểu này, **Tên biến mảng[Chỉ số]** có thể coi như là một biến có kiểu dữ liệu là **kiểu** được chỉ ra trong khai báo biến mảng.  
 
-<a name= Mảng nhiều chiều><a\>  
+<a name= Mảng_nhiều_chiều><a\>  
 ###III.Mảng nhiều chiều:  
 *Mảng nhiều chiều là mảng có từ 2 chiều trở lên. Điều đó có nghĩa là mỗi phần tử của mảng là một mảng khác.
 Người ta thường sử dụng mảng nhiều chiều để lưu các ma trận, các tọa độ 2 chiều, 3 chiều…*   
