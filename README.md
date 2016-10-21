@@ -43,17 +43,17 @@ Với cách truy xuất theo kiểu này, **Tên biến mảng[Chỉ số]** có
 *Mảng nhiều chiều là mảng có từ 2 chiều trở lên. Điều đó có nghĩa là mỗi phần tử của mảng là một mảng khác.
 Người ta thường sử dụng mảng nhiều chiều để lưu các ma trận, các tọa độ 2 chiều, 3 chiều…*   
 **Ví dụ: mảng hai chiều.**    
-**Khai báo mảng 2 chiều tường minh**
-**Cú pháp:**
-`<Kiểu> <Tên mảng><[Số phần tử chiều 1]><[Số phần tử chiều 2]>`  
-**Khai báo mảng 2 chiều không tường minh**  
-Để khai báo mảng 2 chiều không tường minh, ta vẫn phải chỉ ra số phần tử của chiều thứ hai (chiều cuối cùng).  
+**Khai báo mảng 2 chiều tường minh**  
 **Cú pháp:**  
-`<Kiểu> <Tên mảng> <[]><[Số phần tử chiều 2]>;`  
-Cách khai báo này cũng được áp dụng trong trường hợp vừa khai báo, vừa gán trị hay đặt mảng 2 chiều là tham số hình thức của hàm.
-Truy xuất từng phần tử của mảng 2 chiều
-Ta có thể truy xuất một phần tử của mảng hai chiều bằng cách viết ra **tên mảng** theo sau là hai chỉ số đặt trong hai cặp dấu ngoặc vuông. Chẳng hạn ta viết m[2][3].
-Với cách truy xuất theo cách này, **Tên mảng[Chỉ số 1][Chỉ số 2]** có thể coi là 1 biến có kiểu được chỉ ra trong khai báo biến mảng.
+`<Kiểu> <Tên mảng><[Số phần tử chiều 1]><[Số phần tử chiều 2]>`    
+**Khai báo mảng 2 chiều không tường minh**    
+Để khai báo mảng 2 chiều không tường minh, ta vẫn phải chỉ ra số phần tử của chiều thứ hai (chiều cuối cùng).   
+**Cú pháp:**   
+`<Kiểu> <Tên mảng> <[]><[Số phần tử chiều 2]>;`    
+Cách khai báo này cũng được áp dụng trong trường hợp vừa khai báo, vừa gán trị hay đặt mảng 2 chiều là tham số hình thức của hàm.  
+Truy xuất từng phần tử của mảng 2 chiều  
+Ta có thể truy xuất một phần tử của mảng hai chiều bằng cách viết ra **tên mảng** theo sau là hai chỉ số đặt trong hai cặp dấu ngoặc vuông. Chẳng hạn ta viết m[2][3].  
+Với cách truy xuất theo cách này, **Tên mảng[Chỉ số 1][Chỉ số 2]** có thể coi là 1 biến có kiểu được chỉ ra trong khai báo biến mảng.  
 
 
 
