@@ -41,17 +41,17 @@ Truy xuất từng phần tử của mảng
 Mỗi phần tử của mảng được truy xuất thông qua **Tên biến mảng** theo sau là **chỉ số** nằm trong **cặp dấu ngoặc vuông [ ]**. Chẳng hạn *a[0]* là *phần tử đầu tiên* của mảng a được khai báo ở trên. Chỉ số của phần tử mảng là một biểu thức mà giá trị là **kiểu số nguyên**.
 Với cách truy xuất theo kiểu này, **Tên biến mảng[Chỉ số]** có thể coi như là một biến có kiểu dữ liệu là **kiểu** được chỉ ra trong khai báo biến mảng.  
 **Ví dụ**  
-   ` #include <stdio.h>    
-      #include <conio.h>    
-      int main(){    
-      int n,i,j,tam;    
-      int dayso[]={66,65,69,68,67,70};    
-      clrscr();    
-      n=sizeof(dayso)/sizeof(int); /*Lấy số phần tử*/    
-      printf("\n Noi dung cua mang ");    
-      for (i=0;i<n;i++)    
-      printf("%d ",dayso[i]);    
-      return 0;    
+   ` #include <stdio.h>      
+      #include <conio.h>      
+      int main(){      
+      int n,i,j,tam;      
+      int dayso[]={66,65,69,68,67,70};      
+      clrscr();      
+      n=sizeof(dayso)/sizeof(int); /*Lấy số phần tử*/      
+      printf("\n Noi dung cua mang ");      
+      for (i=0;i<n;i++)      
+      printf("%d ",dayso[i]);      
+      return 0;      
 }`
 
    
@@ -76,34 +76,27 @@ Với cách truy xuất theo cách này, **Tên mảng[Chỉ số 1][Chỉ số 
 `#include <stdio.h>  
 #include <conio.h>  
 #define MAX 50;  
-void main(void)  
-{  
+void main(void){    
 int ia[MAX][MAX], i, j, n;  
 printf("Nhap vao cap ma tran: ");  
 scanf("%d", &n);  
 //Nhap du lieu vao ma tran  
 for (i = 0; i < n; i++)  
-for (j = 0; j < n; j++)  
-{  
+for (j = 0; j < n; j++){      
 printf("Nhap vao phan tu ia[%d][%d]: ", i + 1, j + 1);  
-scanf("%d", &ia[i][j]);  
-}  
+scanf("%d", &ia[i][j]);}    
 //In ma tran  
-for (i = 0; i < n; i++)  
-{  
+for (i = 0; i < n; i++){  
 for (j = 0; j < n; j++)  
 printf("%3d ", ia[i][j]);  
-printf("\n"); //xuống dòng để in hàng kế tiếp  
-}
+printf("\n"); //xuống dòng để in hàng kế tiếp}  
 printf("\n"); //Tao khoang cach giua 2 ma tran  
 //In ma tran theo thu tu nguoc  
-for (i = 0; i< n; i++)  
-{  
+for (i = 0; i< n; i++){    
 for (j = n-1; j >= 0 j--)  
 printf("%3d ", ia[i][j]);  
-printf("\n"); //xuống dòng để in hàng kế tiếp  
-}  
-} `  
+printf("\n"); //xuống dòng để in hàng kế tiếp}    
+}`    
 
 
 
