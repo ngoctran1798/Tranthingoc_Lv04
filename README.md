@@ -16,7 +16,7 @@ Trần Thị Ngọc
 `<kiểu dữ liệu  ><tên mảng><danh sách các chiều của mảng>;`  
 <a name = Mảng một chiều><a\>  
 ###II.Mảng một chiều. 
-**Khai báo mảng với số phần tử xác định (khai báo tường minh).**    
+**1.Khai báo mảng với số phần tử xác định (khai báo tường minh).**    
 **Cú pháp:**  
 `< Kiểu> <Tên mảng ><[số phần tử]>;`    
     *Ý nghĩa:*    
@@ -24,7 +24,7 @@ Trần Thị Ngọc
         - Số phần tử: là một hằng số nguyên, cho biết số lượng phần tử tối đa trong mảng là bao nhiêu (hay nói khác đi kích thước của mảng là gì).  
         - Kiểu: mỗi phần tử của mảng có dữ liệu thuộc kiểu gì.  
         - Ở đây, ta khai báo một biến mảng gồm có số phần tử phần tử, phần tử thứ nhất là tên mảng [0], phần tử cuối cùng là tên mảng[số phần tử -1].   
-**Khai báo mảng với số phần tử không xác định (khai báo không tường minh).**    
+**2.Khai báo mảng với số phần tử không xác định (khai báo không tường minh).**    
 **Cú pháp:**    
 `<Kiểu> <Tên mảng> <[]>;`   
         *Khi khai báo, không cho biết rõ số phần tử của mảng, kiểu khai báo này thường được áp dụng trong các trường hợp: vừa khai báo vừa gán giá trị, khai báo mảng là tham số hình thức của hàm.*  
