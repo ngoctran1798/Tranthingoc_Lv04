@@ -24,7 +24,9 @@ Trần Thị Ngọc
         - Tên mảng: đây là một cái tên đặt đúng theo quy tắc đặt tên của danh biểu. Tên này cũng mang ý nghĩa là tên biến mảng.  
         - Số phần tử: là một hằng số nguyên, cho biết số lượng phần tử tối đa trong mảng là bao nhiêu (hay nói khác đi kích thước của mảng là gì).  
         - Kiểu: mỗi phần tử của mảng có dữ liệu thuộc kiểu gì.  
-        - Ở đây, ta khai báo một biến mảng gồm có số phần tử phần tử, phần tử thứ nhất là tên mảng [0], phần tử cuối cùng là tên mảng[số phần tử -1].   
+        - Ở đây, ta khai báo một biến mảng gồm có số phần tử phần tử, phần tử thứ nhất là tên mảng [0], phần tử cuối cùng là tên mảng[số phần tử -1].  
+**Ví dụ**  
+`int a[10];`  
 **2.Khai báo mảng với số phần tử không xác định (khai báo không tường minh).**    
 **Cú pháp:**    
 `<Kiểu> <Tên mảng> <[]>;`   
@@ -38,6 +40,22 @@ Trần Thị Ngọc
 Truy xuất từng phần tử của mảng  
 Mỗi phần tử của mảng được truy xuất thông qua **Tên biến mảng** theo sau là **chỉ số** nằm trong **cặp dấu ngoặc vuông [ ]**. Chẳng hạn *a[0]* là *phần tử đầu tiên* của mảng a được khai báo ở trên. Chỉ số của phần tử mảng là một biểu thức mà giá trị là **kiểu số nguyên**.
 Với cách truy xuất theo kiểu này, **Tên biến mảng[Chỉ số]** có thể coi như là một biến có kiểu dữ liệu là **kiểu** được chỉ ra trong khai báo biến mảng.  
+**Ví dụ**
+   ` #include <stdio.h>  
+      #include <conio.h>  
+      int main(){  
+      int n,i,j,tam;  
+      int dayso[]={66,65,69,68,67,70};  
+      clrscr();  
+      n=sizeof(dayso)/sizeof(int); /*Lấy số phần tử*/  
+      printf("\n Noi dung cua mang ");  
+      for (i=0;i<n;i++)  
+      printf("%d ",dayso[i]);  
+      return 0;  
+}`
+
+   
+     
 <a name= Mảng nhiều chiều><a\>  
 ###III.Mảng nhiều chiều:  
 *Mảng nhiều chiều là mảng có từ 2 chiều trở lên. Điều đó có nghĩa là mỗi phần tử của mảng là một mảng khác.
@@ -54,6 +72,39 @@ Cách khai báo này cũng được áp dụng trong trường hợp vừa khai 
 Truy xuất từng phần tử của mảng 2 chiều  
 Ta có thể truy xuất một phần tử của mảng hai chiều bằng cách viết ra **tên mảng** theo sau là hai chỉ số đặt trong hai cặp dấu ngoặc vuông. Chẳng hạn ta viết m[2][3].  
 Với cách truy xuất theo cách này, **Tên mảng[Chỉ số 1][Chỉ số 2]** có thể coi là 1 biến có kiểu được chỉ ra trong khai báo biến mảng.  
+**Ví dụ:**  
+`#include <stdio.h>  
+#include <conio.h>  
+#define MAX 50;  
+void main(void)  
+{  
+int ia[MAX][MAX], i, j, n;  
+printf("Nhap vao cap ma tran: ");  
+scanf("%d", &n);  
+//Nhap du lieu vao ma tran  
+for (i = 0; i < n; i++)  
+for (j = 0; j < n; j++)  
+{  
+printf("Nhap vao phan tu ia[%d][%d]: ", i + 1, j + 1);  
+scanf("%d", &ia[i][j]);  
+}  
+//In ma tran  
+for (i = 0; i < n; i++)  
+{  
+for (j = 0; j < n; j++)  
+printf("%3d ", ia[i][j]);  
+printf("\n"); //xuống dòng để in hàng kế tiếp  
+}
+printf("\n"); //Tao khoang cach giua 2 ma tran  
+//In ma tran theo thu tu nguoc  
+for (i = 0; i< n; i++)  
+{  
+for (j = n-1; j >= 0 j--)  
+printf("%3d ", ia[i][j]);  
+printf("\n"); //xuống dòng để in hàng kế tiếp  
+}  
+}  `  
+
 
 
 
