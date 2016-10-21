@@ -39,7 +39,9 @@ Trần Thị Ngọc
     **b.Khai báo mảng là tham số hình thức của hàm, trong trường hợp này ta không cần chỉ định số phần tử của mảng là bao nhiêu.**    
 Truy xuất từng phần tử của mảng  
 Mỗi phần tử của mảng được truy xuất thông qua **Tên biến mảng** theo sau là **chỉ số** nằm trong **cặp dấu ngoặc vuông [ ]**. Chẳng hạn *a[0]* là *phần tử đầu tiên* của mảng a được khai báo ở trên. Chỉ số của phần tử mảng là một biểu thức mà giá trị là **kiểu số nguyên**.
-Với cách truy xuất theo kiểu này, **Tên biến mảng[Chỉ số]** có thể coi như là một biến có kiểu dữ liệu là **kiểu** được chỉ ra trong khai báo biến mảng.  
+Với cách truy xuất theo kiểu này, **Tên biến mảng[Chỉ số]** có thể coi như là một biến có kiểu dữ liệu là **kiểu** được chỉ ra trong khai báo biến mảng.
+**Ví dụ**  
+!(http://tuhocanninhmang.com/ngon-ngu-lap-trinh/c-cpp/tu-hoc-lap-trinh-c-bai-10-mang-mot-chieu.htm)  
 
 <a name= Mảng_nhiều_chiều><a\>  
 ###III.Mảng nhiều chiều:  
@@ -57,6 +59,8 @@ Cách khai báo này cũng được áp dụng trong trường hợp vừa khai 
 Truy xuất từng phần tử của mảng 2 chiều  
 Ta có thể truy xuất một phần tử của mảng hai chiều bằng cách viết ra **tên mảng** theo sau là hai chỉ số đặt trong hai cặp dấu ngoặc vuông. Chẳng hạn ta viết m[2][3].  
 Với cách truy xuất theo cách này, **Tên mảng[Chỉ số 1][Chỉ số 2]** có thể coi là 1 biến có kiểu được chỉ ra trong khai báo biến mảng.  
+**Ví dụ:**
+!(http://tuhocanninhmang.com/ngon-ngu-lap-trinh/c-cpp/tu-hoc-lap-trinh-c-bai-11-mang-nhieu-chieu.htm)  
     
 
 
